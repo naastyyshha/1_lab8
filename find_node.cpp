@@ -15,7 +15,7 @@ struct Point {
     Point(double lng = 0, double lt = 0) : lon(lng), lat(lt) {}
 };
 
-// Функция загрузки ВСЕХ точек из файла
+// Функция загрузки всех точек из файла
 vector<Point> load_all_points_from_file(const string& filename) {
     vector<Point> points;
     ifstream file(filename);
